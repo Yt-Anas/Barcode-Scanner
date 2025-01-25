@@ -36,17 +36,16 @@ An iOS application designed to scan and decode barcodes using the camera, provid
 
   Navigate to the project directory and open BarcodeScanner.xcodeproj with Xcode.
 
-3. **Install Dependencies**:
+3. **Build and Run**:
 
-   EEnsure all necessary dependencies are installed. If using CocoaPods or Swift Package Manager, run the appropriate commands:
+   Select your target device or simulator, then click the Run button or press Cmd + R
+4. **Permissions**:
 
-   ```bash
-   pod install  # For CocoaPods
-   ```
+   Ensure the app has access to the camera. You may need to add the following keys to your `Info.plist` file if not already included:
 
-4. **Build and Run**:
-
-   Select your target device or simulator and click on the **Run** button or press `Cmd + R`.
+```xml
+`<key>NSCameraUsageDescription</key>
+`<string>We need access to the camera to scan barcodes.</string>
 
 ---
 
