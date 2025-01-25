@@ -46,6 +46,7 @@ An iOS application designed to scan and decode barcodes using the camera, provid
 ```xml
 `<key>NSCameraUsageDescription</key>
 `<string>We need access to the camera to scan barcodes.</string>
+```
 
 ---
 
